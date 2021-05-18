@@ -1,0 +1,30 @@
+{
+  "name": "algorand-login-mnemonic",
+  "version": "0.0.1",
+  "description": "An implementation of client authentication using algorand private key (mnemonic)",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon -e * src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vidhyanandcs/algorand-login-mnemonic.git"
+  },
+  "keywords": [
+    "algorand",
+    "authentication",
+    "mnemonic"
+  ],
+  "author": "vidhyanand CS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vidhyanandcs/algorand-login-mnemonic/issues"
+  },
+  "homepage": "https://github.com/Vidhyanandcs/algorand-login-mnemonic#readme",
+  "dependencies": {
+    "algosdk": "^1.9.1",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}
